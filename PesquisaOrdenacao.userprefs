@@ -1,0 +1,26 @@
+﻿<Properties StartupItem="PesquisaOrdenacao.ConsoleAplication\PesquisaOrdenacao.ConsoleAplication.csproj" GitUserInfo="UsingGIT">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|x86" />
+  <MonoDevelop.Ide.Workbench>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="PesquisaOrdenacao" expanded="True" selected="True">
+            <Node name="Biblioteca" expanded="True">
+              <Node name="PesquisaOrdenacao.Biblioteca" expanded="True" />
+            </Node>
+            <Node name="Exibicao" expanded="True">
+              <Node name="PesquisaOrdenacao.ConsoleAplication" expanded="True" />
+            </Node>
+            <Node name="Interface" expanded="True">
+              <Node name="PesquisaOrdenacao.Interface" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
