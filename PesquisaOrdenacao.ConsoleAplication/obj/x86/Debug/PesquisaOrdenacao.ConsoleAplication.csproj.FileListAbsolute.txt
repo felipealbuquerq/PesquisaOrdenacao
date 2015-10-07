@@ -1,0 +1,9 @@
+C:\DEV\FAPEPE\PesquisaOrdenacao\PesquisaOrdenacao.ConsoleAplication\bin\Debug\PesquisaOrdenacao.ConsoleAplication.exe
+C:\DEV\FAPEPE\PesquisaOrdenacao\PesquisaOrdenacao.ConsoleAplication\bin\Debug\PesquisaOrdenacao.ConsoleAplication.pdb
+C:\DEV\FAPEPE\PesquisaOrdenacao\PesquisaOrdenacao.ConsoleAplication\bin\Debug\PesquisaOrdenacao.Biblioteca.dll
+C:\DEV\FAPEPE\PesquisaOrdenacao\PesquisaOrdenacao.ConsoleAplication\bin\Debug\PesquisaOrdenacao.Interface.dll
+C:\DEV\FAPEPE\PesquisaOrdenacao\PesquisaOrdenacao.ConsoleAplication\bin\Debug\PesquisaOrdenacao.Biblioteca.pdb
+C:\DEV\FAPEPE\PesquisaOrdenacao\PesquisaOrdenacao.ConsoleAplication\bin\Debug\PesquisaOrdenacao.Interface.pdb
+C:\DEV\FAPEPE\PesquisaOrdenacao\PesquisaOrdenacao.ConsoleAplication\obj\x86\Debug\PesquisaOrdenacao.ConsoleAplication.csprojResolveAssemblyReference.cache
+C:\DEV\FAPEPE\PesquisaOrdenacao\PesquisaOrdenacao.ConsoleAplication\obj\x86\Debug\PesquisaOrdenacao.ConsoleAplication.exe
+C:\DEV\FAPEPE\PesquisaOrdenacao\PesquisaOrdenacao.ConsoleAplication\obj\x86\Debug\PesquisaOrdenacao.ConsoleAplication.pdb

@@ -35,6 +35,13 @@ namespace PesquisaOrdenacao.ConsoleAplication
 				Console.WriteLine (numero);
 			}
 		}
+
+		public void VisualizarNumeros (int[] listNumeros)
+		{
+			foreach (var numero in listNumeros) {
+				Console.WriteLine (numero);
+			}
+		}
 	}
 }
 

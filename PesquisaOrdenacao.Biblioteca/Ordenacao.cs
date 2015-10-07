@@ -28,6 +28,23 @@ namespace PesquisaOrdenacao.Biblioteca
 			}
 			return numeros.ToList();
 		}		
+
+		public int[] BubbleSort (int[] numeros)
+		{
+			int temp;
+
+			for (int posicao = 0; posicao < numeros.Length; posicao++) {
+				for (int sort = 0; sort < numeros.Length - 1; sort++) {
+					if (numeros[sort] > numeros[sort + 1]) {
+						temp = numeros[sort + 1];
+						numeros[sort + 1] = numeros[sort];
+						numeros[sort] = temp;
+					}
+				}
+			}
+
+			return numeros;
+		}
 	}
 }
 

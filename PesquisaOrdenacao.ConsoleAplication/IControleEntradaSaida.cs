@@ -18,6 +18,7 @@ namespace PesquisaOrdenacao.ConsoleAplication
 		/// </summary>
 		/// <param name="listNumeros">Lista de numeros a serem exibidos.</param>
 		void VisualizarNumeros(List<int> listNumeros);
+		void VisualizarNumeros(int[] listNumeros);
 	}
 }
 

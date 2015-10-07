@@ -1,0 +1,4 @@
+C:\DEV\FAPEPE\PesquisaOrdenacao\PesquisaOrdenacao.Interface\bin\Debug\PesquisaOrdenacao.Interface.dll
+C:\DEV\FAPEPE\PesquisaOrdenacao\PesquisaOrdenacao.Interface\bin\Debug\PesquisaOrdenacao.Interface.pdb
+C:\DEV\FAPEPE\PesquisaOrdenacao\PesquisaOrdenacao.Interface\obj\Debug\PesquisaOrdenacao.Interface.dll
+C:\DEV\FAPEPE\PesquisaOrdenacao\PesquisaOrdenacao.Interface\obj\Debug\PesquisaOrdenacao.Interface.pdb

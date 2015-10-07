@@ -24,11 +24,18 @@ namespace PesquisaOrdenacao.ConsoleAplication
 			entradaSaidaUsuario.VisualizarNumeros(listNumeros);
 
 			//Aplicando Algoritimo de Ordenação
-			listNumeros = metodosOrdenacao.InsertionSort(listNumeros.ToArray());
+			var listNumerosInsertionSort = metodosOrdenacao.InsertionSort(listNumeros.ToArray());
 
 			//Exibição para o usuário
-			Console.WriteLine ("Números ordenados por InsertionSort ou em português Ordenação por Inserção:");
-			entradaSaidaUsuario.VisualizarNumeros (listNumeros);
+			Console.WriteLine ("Números ordenados por InsertionSort ou em português ordenação por Inserção:");
+			entradaSaidaUsuario.VisualizarNumeros (listNumerosInsertionSort);
+
+			//Aplicando Algoritimo de Ordenação
+			var listNumerosBubbleSort = metodosOrdenacao.BubbleSort(listNumeros.ToArray());
+
+			//Exibição para o usuário
+			Console.WriteLine ("Números ordenados por BubbleSort ou em português ordenação por flutuação (literalmente \"por bolha\"):");
+			entradaSaidaUsuario.VisualizarNumeros (listNumerosBubbleSort);
 
 			Console.ReadLine ();
 		}

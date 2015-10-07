@@ -1,6 +1,13 @@
-﻿<Properties StartupItem="PesquisaOrdenacao.ConsoleAplication\PesquisaOrdenacao.ConsoleAplication.csproj" GitUserInfo="UsingGIT">
+﻿<Properties StartupItem="PesquisaOrdenacao.ConsoleAplication\PesquisaOrdenacao.ConsoleAplication.csproj" GitUserInfo="UsingGIT" RefactoringSettings.EnableRefactorings="True">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|x86" />
-  <MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workbench ActiveDocument="PesquisaOrdenacao.ConsoleAplication\Program.cs">
+    <Files>
+      <File FileName="PesquisaOrdenacao.Interface\IOrdenacao.cs" Line="33" Column="36" />
+      <File FileName="PesquisaOrdenacao.ConsoleAplication\IControleEntradaSaida.cs" Line="21" Column="45" />
+      <File FileName="PesquisaOrdenacao.ConsoleAplication\ControleEntradaSaida.cs" Line="45" Column="3" />
+      <File FileName="PesquisaOrdenacao.ConsoleAplication\Program.cs" Line="24" Column="55" />
+      <File FileName="PesquisaOrdenacao.Biblioteca\Ordenacao.cs" Line="32" Column="10" />
+    </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
