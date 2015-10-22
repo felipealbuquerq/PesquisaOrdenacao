@@ -48,5 +48,9 @@
       <Project>{0192D9D2-DF16-4FCF-90C4-9D318AC91A44}</Project>
       <Name>PesquisaOrdenacao.Interface</Name>
     </ProjectReference>
+    <ProjectReference Include="..\PesquisaOrdenacao.Modelo\PesquisaOrdenacao.Modelo.csproj">
+      <Project>{0F65DF68-1559-4B97-99B5-383E9A4D406E}</Project>
+      <Name>PesquisaOrdenacao.Modelo</Name>
+    </ProjectReference>
   </ItemGroup>
 </Project>

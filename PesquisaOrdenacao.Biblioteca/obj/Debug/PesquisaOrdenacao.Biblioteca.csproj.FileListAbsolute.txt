@@ -5,3 +5,12 @@ C:\DEV\FAPEPE\PesquisaOrdenacao\PesquisaOrdenacao.Biblioteca\bin\Debug\PesquisaO
 C:\DEV\FAPEPE\PesquisaOrdenacao\PesquisaOrdenacao.Biblioteca\obj\Debug\PesquisaOrdenacao.Biblioteca.csprojResolveAssemblyReference.cache
 C:\DEV\FAPEPE\PesquisaOrdenacao\PesquisaOrdenacao.Biblioteca\obj\Debug\PesquisaOrdenacao.Biblioteca.dll
 C:\DEV\FAPEPE\PesquisaOrdenacao\PesquisaOrdenacao.Biblioteca\obj\Debug\PesquisaOrdenacao.Biblioteca.pdb
+C:\Users\felipe.almeida\Downloads\PesquisaOrdenacao-master\PesquisaOrdenacao.Biblioteca\bin\Debug\PesquisaOrdenacao.Biblioteca.dll
+C:\Users\felipe.almeida\Downloads\PesquisaOrdenacao-master\PesquisaOrdenacao.Biblioteca\bin\Debug\PesquisaOrdenacao.Biblioteca.pdb
+C:\Users\felipe.almeida\Downloads\PesquisaOrdenacao-master\PesquisaOrdenacao.Biblioteca\bin\Debug\PesquisaOrdenacao.Interface.dll
+C:\Users\felipe.almeida\Downloads\PesquisaOrdenacao-master\PesquisaOrdenacao.Biblioteca\bin\Debug\PesquisaOrdenacao.Interface.pdb
+C:\Users\felipe.almeida\Downloads\PesquisaOrdenacao-master\PesquisaOrdenacao.Biblioteca\obj\Debug\PesquisaOrdenacao.Biblioteca.csprojResolveAssemblyReference.cache
+C:\Users\felipe.almeida\Downloads\PesquisaOrdenacao-master\PesquisaOrdenacao.Biblioteca\obj\Debug\PesquisaOrdenacao.Biblioteca.dll
+C:\Users\felipe.almeida\Downloads\PesquisaOrdenacao-master\PesquisaOrdenacao.Biblioteca\obj\Debug\PesquisaOrdenacao.Biblioteca.pdb
+C:\Users\felipe.almeida\Downloads\PesquisaOrdenacao-master\PesquisaOrdenacao.Biblioteca\bin\Debug\PesquisaOrdenacao.Modelo.dll
+C:\Users\felipe.almeida\Downloads\PesquisaOrdenacao-master\PesquisaOrdenacao.Biblioteca\bin\Debug\PesquisaOrdenacao.Modelo.pdb

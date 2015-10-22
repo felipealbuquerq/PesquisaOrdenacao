@@ -3,6 +3,7 @@ using System.Collections.Generic;
 
 namespace PesquisaOrdenacao.ConsoleAplication
 {
+	using Modelo;
 	/// <summary>
 	/// Eu controlo a entrada e saida.
 	/// </summary>
@@ -18,7 +19,10 @@ namespace PesquisaOrdenacao.ConsoleAplication
 		/// </summary>
 		/// <param name="listNumeros">Lista de numeros a serem exibidos.</param>
 		void VisualizarNumeros(List<int> listNumeros);
-		void VisualizarNumeros(int[] listNumeros);
+		void VisualizarNumeros(int[] numeros);
+		ResultadoPesquisa PesquisarNumero (int[] numeros, int filtro);
+		void ExibirNumero (int numero, int posicao);
+		int ColetarNumeroValido();
 	}
 }
 

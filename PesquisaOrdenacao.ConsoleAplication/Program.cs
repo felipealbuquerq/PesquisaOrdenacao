@@ -1,10 +1,12 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Linq;
 
 namespace PesquisaOrdenacao.ConsoleAplication
 {
 	using Interface;
 	using Biblioteca;
+	using Modelo;
 
 	class Programa
 	{
@@ -14,7 +16,7 @@ namespace PesquisaOrdenacao.ConsoleAplication
 			IControleEntradaSaida entradaSaidaUsuario = new ControleEntradaSaida ();
 
 			//Instanciando Métodos da Biblioteca Usada em Outras Camadas
-			IOrdenacao metodosOrdenacao = new Ordenacao();
+			IOrdenacao metodosOrdenacao = new Ordenacao();		
 
 			//Dados de Entrada
 			List<int> listNumeros = entradaSaidaUsuario.ColetarNumerosUsuario ();
@@ -36,6 +38,19 @@ namespace PesquisaOrdenacao.ConsoleAplication
 			//Exibição para o usuário
 			Console.WriteLine ("Números ordenados por BubbleSort ou em português ordenação por flutuação (literalmente \"por bolha\"):");
 			entradaSaidaUsuario.VisualizarNumeros (listNumerosBubbleSort);
+
+			//Aplicando Algoritimo de Ordenação
+			int[] numerosMergeSort = listNumeros.ToArray();
+			metodosOrdenacao.MergeSort(ref numerosMergeSort, 0, numerosMergeSort.Length - 1);
+
+			//Exibição para o usuário
+			Console.WriteLine ("Números ordenados por MergeSort:");
+			entradaSaidaUsuario.VisualizarNumeros (numerosMergeSort);
+
+			//Pesquisa
+			Console.WriteLine("Pesquisa");
+			ResultadoPesquisa resultadoPesquisa = entradaSaidaUsuario.PesquisarNumero(numerosMergeSort, entradaSaidaUsuario.ColetarNumeroValido());
+			entradaSaidaUsuario.ExibirNumero (resultadoPesquisa.Numero, resultadoPesquisa.Posicao);
 
 			Console.ReadLine ();
 		}

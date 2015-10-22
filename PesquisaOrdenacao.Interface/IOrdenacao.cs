@@ -31,6 +31,19 @@ namespace PesquisaOrdenacao.Interface
 		/// <returns>Os números ordenados.</returns>
 		/// <param name="numeros">Numeros a serem ordenados.</param>
 		int[] BubbleSort (int[] numeros);
+
+		/// <summary>
+		/// O merge sort, ou ordenação por mistura, ou até mesmo ordenação por entrechechamento, 
+		/// é um exemplo de algoritmo de ordenação do tipo dividir-para-conquistar.
+		///Sua ideia básica consiste em Dividir(o problema em vários sub-problemas e resolver esses sub-problemas através da recursividade) 
+		/// e Conquistar(após todos os sub-problemas terem sido resolvidos ocorre a conquista que é a união das resoluções dos sub-problemas).
+		/// Como o algoritmo do Merge Sort usa a recursividade em alguns problemas 
+		/// esta técnica não é muito eficiente devido ao alto consumo de memória e tempo de execução.
+		/// </summary>
+		/// <param name="numeros">Numeros.</param>
+		/// <param name="esquerda">Posição a Esquerda (Inicio, ex.: 0)</param>
+		/// <param name="direita">Posição a Direita (Fim, ex.: tamanho -1, pois quando começa de zero é necessário subtrair uma posição)</param>
+		void MergeSort (ref int[] numeros, int esquerda, int direita);
 	}
 }
 

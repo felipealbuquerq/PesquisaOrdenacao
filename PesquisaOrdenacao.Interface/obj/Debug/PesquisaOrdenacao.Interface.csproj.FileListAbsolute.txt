@@ -2,3 +2,7 @@ C:\DEV\FAPEPE\PesquisaOrdenacao\PesquisaOrdenacao.Interface\bin\Debug\PesquisaOr
 C:\DEV\FAPEPE\PesquisaOrdenacao\PesquisaOrdenacao.Interface\bin\Debug\PesquisaOrdenacao.Interface.pdb
 C:\DEV\FAPEPE\PesquisaOrdenacao\PesquisaOrdenacao.Interface\obj\Debug\PesquisaOrdenacao.Interface.dll
 C:\DEV\FAPEPE\PesquisaOrdenacao\PesquisaOrdenacao.Interface\obj\Debug\PesquisaOrdenacao.Interface.pdb
+C:\Users\felipe.almeida\Downloads\PesquisaOrdenacao-master\PesquisaOrdenacao.Interface\bin\Debug\PesquisaOrdenacao.Interface.dll
+C:\Users\felipe.almeida\Downloads\PesquisaOrdenacao-master\PesquisaOrdenacao.Interface\bin\Debug\PesquisaOrdenacao.Interface.pdb
+C:\Users\felipe.almeida\Downloads\PesquisaOrdenacao-master\PesquisaOrdenacao.Interface\obj\Debug\PesquisaOrdenacao.Interface.dll
+C:\Users\felipe.almeida\Downloads\PesquisaOrdenacao-master\PesquisaOrdenacao.Interface\obj\Debug\PesquisaOrdenacao.Interface.pdb

@@ -1,25 +1,34 @@
 ﻿<Properties StartupItem="PesquisaOrdenacao.ConsoleAplication\PesquisaOrdenacao.ConsoleAplication.csproj" GitUserInfo="UsingGIT" RefactoringSettings.EnableRefactorings="True">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|x86" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="PesquisaOrdenacao.ConsoleAplication\Program.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="PesquisaOrdenacao.Biblioteca\Ordenacao.cs">
     <Files>
-      <File FileName="PesquisaOrdenacao.Interface\IOrdenacao.cs" Line="33" Column="36" />
-      <File FileName="PesquisaOrdenacao.ConsoleAplication\IControleEntradaSaida.cs" Line="21" Column="45" />
-      <File FileName="PesquisaOrdenacao.ConsoleAplication\ControleEntradaSaida.cs" Line="45" Column="3" />
-      <File FileName="PesquisaOrdenacao.ConsoleAplication\Program.cs" Line="24" Column="55" />
-      <File FileName="PesquisaOrdenacao.Biblioteca\Ordenacao.cs" Line="32" Column="10" />
+      <File FileName="PesquisaOrdenacao.Interface\IOrdenacao.cs" Line="35" Column="30" />
+      <File FileName="PesquisaOrdenacao.ConsoleAplication\IControleEntradaSaida.cs" Line="23" Column="20" />
+      <File FileName="PesquisaOrdenacao.ConsoleAplication\ControleEntradaSaida.cs" Line="58" Column="4" />
+      <File FileName="PesquisaOrdenacao.ConsoleAplication\Program.cs" Line="46" Column="59" />
+      <File FileName="PesquisaOrdenacao.Biblioteca\Ordenacao.cs" Line="75" Column="24" />
+      <File FileName="PesquisaOrdenacao.Modelo\ResultadoPesquisa.cs" Line="10" Column="22" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="PesquisaOrdenacao" expanded="True" selected="True">
+          <Node name="PesquisaOrdenacao" expanded="True">
             <Node name="Biblioteca" expanded="True">
-              <Node name="PesquisaOrdenacao.Biblioteca" expanded="True" />
+              <Node name="PesquisaOrdenacao.Biblioteca" expanded="True">
+                <Node name="References" expanded="True" />
+                <Node name="Ordenacao.cs" selected="True" />
+              </Node>
             </Node>
             <Node name="Exibicao" expanded="True">
-              <Node name="PesquisaOrdenacao.ConsoleAplication" expanded="True" />
+              <Node name="PesquisaOrdenacao.ConsoleAplication" expanded="True">
+                <Node name="References" expanded="True" />
+              </Node>
             </Node>
             <Node name="Interface" expanded="True">
               <Node name="PesquisaOrdenacao.Interface" expanded="True" />
+            </Node>
+            <Node name="Modelos" expanded="True">
+              <Node name="PesquisaOrdenacao.Modelo" expanded="True" />
             </Node>
           </Node>
         </State>

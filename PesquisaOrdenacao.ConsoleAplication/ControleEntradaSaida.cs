@@ -3,6 +3,8 @@ using System.Collections.Generic;
 
 namespace PesquisaOrdenacao.ConsoleAplication
 {
+	using Modelo;
+
 	public class ControleEntradaSaida: IControleEntradaSaida
 	{
 		private List<int> numeros = new List<int>();
@@ -36,10 +38,46 @@ namespace PesquisaOrdenacao.ConsoleAplication
 			}
 		}
 
-		public void VisualizarNumeros (int[] listNumeros)
+		public void VisualizarNumeros (int[] numeros)
 		{
-			foreach (var numero in listNumeros) {
+			foreach (var numero in numeros) {
 				Console.WriteLine (numero);
+			}
+		}
+
+		public ResultadoPesquisa PesquisarNumero (int[] numeros, int filtro)
+		{
+			ResultadoPesquisa resultado = new ResultadoPesquisa(0, 0);
+
+			for (int i = 0; i < numeros.Length; i++) {
+				if (filtro == numeros[i]){
+					resultado.Numero = filtro;
+					resultado.Posicao = i;
+				}
+			}
+
+			return resultado;
+		}
+
+		public void ExibirNumero (int numero, int posicao)
+		{
+			if (numero > 0) {
+					Console.WriteLine (string.Format("O número encontrado é: {0} na posição {1}", numero, posicao));
+			} else {
+				Console.WriteLine ("Número não encontrado.");
+			}
+		}
+
+		public int ColetarNumeroValido(){				
+			Console.WriteLine("Informe um número válido: ");
+
+			try
+			{
+				return Convert.ToInt32(Console.ReadLine());
+			}
+			catch 
+			{
+				return ColetarNumeroValido();                
 			}
 		}
 	}

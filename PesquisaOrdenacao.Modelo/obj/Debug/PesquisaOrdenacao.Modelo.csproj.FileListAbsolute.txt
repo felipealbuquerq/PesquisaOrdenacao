@@ -1,0 +1,4 @@
+C:\Users\felipe.almeida\Downloads\PesquisaOrdenacao-master\PesquisaOrdenacao.Modelo\bin\Debug\PesquisaOrdenacao.Modelo.dll
+C:\Users\felipe.almeida\Downloads\PesquisaOrdenacao-master\PesquisaOrdenacao.Modelo\bin\Debug\PesquisaOrdenacao.Modelo.pdb
+C:\Users\felipe.almeida\Downloads\PesquisaOrdenacao-master\PesquisaOrdenacao.Modelo\obj\Debug\PesquisaOrdenacao.Modelo.dll
+C:\Users\felipe.almeida\Downloads\PesquisaOrdenacao-master\PesquisaOrdenacao.Modelo\obj\Debug\PesquisaOrdenacao.Modelo.pdb

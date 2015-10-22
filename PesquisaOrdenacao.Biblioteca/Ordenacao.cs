@@ -45,6 +45,50 @@ namespace PesquisaOrdenacao.Biblioteca
 
 			return numeros;
 		}
+
+		public void MergeSort (ref int[] numeros, int esquerda, int direita)
+		{
+			int meio;
+
+			if (direita > esquerda)
+			{
+				meio = (direita + esquerda) / 2;
+				MergeSort(ref numeros, esquerda, meio);
+				MergeSort(ref numeros, (meio + 1), direita);
+
+				DoMerge(numeros, esquerda, (meio+1), direita);
+			}				
+		}
+
+		private void DoMerge(int [] numeros, int esquerda, int meio, int direita)
+		{
+			int [] temp = new int[numeros.Length];
+			int i, esquerda_end, num_elements, tmp_pos;
+
+			esquerda_end = (meio - 1);
+			tmp_pos = esquerda;
+			num_elements = (direita - esquerda + 1);
+
+			while ((esquerda <= esquerda_end) && (meio <= direita))
+			{
+				if (numeros[esquerda] <= numeros[meio])
+					temp[tmp_pos++] = numeros[esquerda++];
+				else
+					temp[tmp_pos++] = numeros[meio++];
+			}
+
+			while (esquerda <= esquerda_end)
+				temp[tmp_pos++] = numeros[esquerda++];
+
+			while (meio <= direita)
+				temp[tmp_pos++] = numeros[meio++];
+
+			for (i = 0; i < num_elements; i++)
+			{
+				numeros[direita] = temp[direita];
+				direita--;
+			}				
+		}
 	}
 }
 
