@@ -18,3 +18,5 @@ C:\Users\felipe.almeida\Downloads\PesquisaOrdenacao-master\PesquisaOrdenacao.Con
 C:\Users\felipe.almeida\Downloads\PesquisaOrdenacao-master\PesquisaOrdenacao.ConsoleAplication\obj\x86\Debug\PesquisaOrdenacao.ConsoleAplication.pdb
 C:\Users\felipe.almeida\Downloads\PesquisaOrdenacao-master\PesquisaOrdenacao.ConsoleAplication\bin\Debug\PesquisaOrdenacao.Modelo.dll
 C:\Users\felipe.almeida\Downloads\PesquisaOrdenacao-master\PesquisaOrdenacao.ConsoleAplication\bin\Debug\PesquisaOrdenacao.Modelo.pdb
+C:\DEV\FAPEPE\PesquisaOrdenacao\PesquisaOrdenacao.ConsoleAplication\bin\Debug\PesquisaOrdenacao.Modelo.dll
+C:\DEV\FAPEPE\PesquisaOrdenacao\PesquisaOrdenacao.ConsoleAplication\bin\Debug\PesquisaOrdenacao.Modelo.pdb

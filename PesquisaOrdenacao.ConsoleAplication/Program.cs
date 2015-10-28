@@ -52,6 +52,19 @@ namespace PesquisaOrdenacao.ConsoleAplication
 			ResultadoPesquisa resultadoPesquisa = entradaSaidaUsuario.PesquisarNumero(numerosMergeSort, entradaSaidaUsuario.ColetarNumeroValido());
 			entradaSaidaUsuario.ExibirNumero (resultadoPesquisa.Numero, resultadoPesquisa.Posicao);
 
+			//Aplicando Algoritimo de Ordenação
+			int[] numerosQuickSort = listNumeros.ToArray();
+			metodosOrdenacao.QuickSort(ref numerosQuickSort);
+
+			//Exibição para o usuário
+			Console.WriteLine ("Números ordenados por QuickSort:");
+			entradaSaidaUsuario.VisualizarNumeros (numerosQuickSort);
+
+			//Pesquisa
+			Console.WriteLine("Pesquisa");
+			resultadoPesquisa = entradaSaidaUsuario.PesquisarNumero(numerosQuickSort, entradaSaidaUsuario.ColetarNumeroValido());
+			entradaSaidaUsuario.ExibirNumero (resultadoPesquisa.Numero, resultadoPesquisa.Posicao);
+
 			Console.ReadLine ();
 		}
 	}
