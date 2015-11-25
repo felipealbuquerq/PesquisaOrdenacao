@@ -65,6 +65,32 @@ namespace PesquisaOrdenacao.ConsoleAplication
 			resultadoPesquisa = entradaSaidaUsuario.PesquisarNumero(numerosQuickSort, entradaSaidaUsuario.ColetarNumeroValido());
 			entradaSaidaUsuario.ExibirNumero (resultadoPesquisa.Numero, resultadoPesquisa.Posicao);
 
+			//Aplicando Algoritimo de Ordenação
+			int[] numerosSelectionSort = listNumeros.ToArray();
+			numerosSelectionSort = metodosOrdenacao.SelectionSort(numerosSelectionSort);
+
+			//Exibição para o usuário
+			Console.WriteLine ("Números ordenados por SelectionSort:");
+			entradaSaidaUsuario.VisualizarNumeros (numerosSelectionSort);
+
+			//Pesquisa
+			Console.WriteLine("Pesquisa Binária - QuickSort");
+			resultadoPesquisa = entradaSaidaUsuario.PesquisaBinaria(numerosQuickSort, entradaSaidaUsuario.ColetarNumeroValido());
+			entradaSaidaUsuario.ExibirNumero (resultadoPesquisa.Numero, resultadoPesquisa.Posicao);
+
+			//Aplicando Algoritimo de Ordenação
+			int[] numerosShellSort = listNumeros.ToArray();
+			numerosShellSort = metodosOrdenacao.ShellSort(numerosShellSort, numerosShellSort.Length);
+
+			//Exibição para o usuário
+			Console.WriteLine ("Números ordenados por ShellSort:");
+			entradaSaidaUsuario.VisualizarNumeros (numerosShellSort);
+
+			//Pesquisa
+			Console.WriteLine("Pesquisa Binária - ShellSort");
+			resultadoPesquisa = entradaSaidaUsuario.PesquisaBinaria(numerosShellSort, entradaSaidaUsuario.ColetarNumeroValido());
+			entradaSaidaUsuario.ExibirNumero (resultadoPesquisa.Numero, resultadoPesquisa.Posicao);
+
 			Console.ReadLine ();
 		}
 	}

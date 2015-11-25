@@ -127,6 +127,56 @@ namespace PesquisaOrdenacao.Biblioteca
 			vetor[f] = pivo;
 			return f;
 		}
+
+		public int[] SelectionSort (int[] numeros){
+			int min, aux;
+
+			for (int i = 0; i < numeros.Length - 1; i++)
+			{
+				min = i;
+
+				for (int j = i + 1; j < numeros.Length; j++)
+					if (numeros[j] < numeros[min])
+						min = j;
+
+				if (min != i)
+				{
+					aux = numeros[min];
+					numeros[min] = numeros[i];
+					numeros[i] = aux;
+				}
+			}
+
+			return numeros;
+		}
+
+		public int[] ShellSort(int[] numeros, int qtdeNumeros)
+		{
+			int i, j, incremento, temp;
+			incremento = 3;
+			while (incremento > 0)
+			{
+				for (i = 0; i < qtdeNumeros; i++)
+				{
+					j = i;
+					temp = numeros[i];
+					while ((j >= incremento) && (numeros[j - incremento] > temp))
+					{
+						numeros[j] = numeros[j - incremento];
+						j = j - incremento;
+					}
+					numeros[j] = temp;
+				}
+				if (incremento / 2 != 0)
+					incremento = incremento / 2;
+				else if (incremento == 1)
+					incremento = 0;
+				else
+					incremento = 1;
+			}
+
+			return numeros;
+		}
 	}
 }
 

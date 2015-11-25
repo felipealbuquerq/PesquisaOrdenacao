@@ -1,13 +1,10 @@
-﻿<Properties StartupItem="PesquisaOrdenacao.ConsoleAplication\PesquisaOrdenacao.ConsoleAplication.csproj" GitUserInfo="UsingGIT" RefactoringSettings.EnableRefactorings="True">
+﻿<Properties StartupItem="PesquisaOrdenacao.ConsoleAplication\PesquisaOrdenacao.ConsoleAplication.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|x86" />
   <MonoDevelop.Ide.Workbench ActiveDocument="PesquisaOrdenacao.Biblioteca\Ordenacao.cs">
     <Files>
-      <File FileName="PesquisaOrdenacao.Interface\IOrdenacao.cs" Line="35" Column="30" />
-      <File FileName="PesquisaOrdenacao.ConsoleAplication\IControleEntradaSaida.cs" Line="23" Column="20" />
-      <File FileName="PesquisaOrdenacao.ConsoleAplication\ControleEntradaSaida.cs" Line="58" Column="4" />
-      <File FileName="PesquisaOrdenacao.ConsoleAplication\Program.cs" Line="46" Column="59" />
-      <File FileName="PesquisaOrdenacao.Biblioteca\Ordenacao.cs" Line="75" Column="24" />
-      <File FileName="PesquisaOrdenacao.Modelo\ResultadoPesquisa.cs" Line="10" Column="22" />
+      <File FileName="PesquisaOrdenacao.Interface\IOrdenacao.cs" Line="67" Column="50" />
+      <File FileName="PesquisaOrdenacao.Biblioteca\Ordenacao.cs" Line="114" Column="10" />
+      <File FileName="PesquisaOrdenacao.ConsoleAplication\Program.cs" Line="67" Column="4" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -15,20 +12,14 @@
           <Node name="PesquisaOrdenacao" expanded="True">
             <Node name="Biblioteca" expanded="True">
               <Node name="PesquisaOrdenacao.Biblioteca" expanded="True">
-                <Node name="References" expanded="True" />
                 <Node name="Ordenacao.cs" selected="True" />
               </Node>
             </Node>
             <Node name="Exibicao" expanded="True">
-              <Node name="PesquisaOrdenacao.ConsoleAplication" expanded="True">
-                <Node name="References" expanded="True" />
-              </Node>
+              <Node name="PesquisaOrdenacao.ConsoleAplication" expanded="True" />
             </Node>
             <Node name="Interface" expanded="True">
               <Node name="PesquisaOrdenacao.Interface" expanded="True" />
-            </Node>
-            <Node name="Modelos" expanded="True">
-              <Node name="PesquisaOrdenacao.Modelo" expanded="True" />
             </Node>
           </Node>
         </State>

@@ -54,6 +54,28 @@ namespace PesquisaOrdenacao.Interface
 		/// </summary>
 		/// <param name="numeros">Numeros.</param>
 		void QuickSort (ref int[] numeros);
+		/// <summary>
+		/// A ordenação por seleção (do inglês, selection sort. Do russo, Серийный Сортировать) 
+		/// é um algoritmo de ordenação baseado em se passar sempre o menor valor do vetor para a primeira posição 
+		/// (ou o maior dependendo da ordem requerida), depois o de segundo menor valor para a segunda posição, 
+		/// e assim é feito sucessivamente com os (n-1) elementos restantes, até os últimos dois elementos.
+		/// </summary>
+		/// <returns>Números ordenados</returns>
+		/// <param name="numeros">Números a serem ordenados</param>
+		int[] SelectionSort (int[] numeros);
+		/// <summary>
+		/// Criado por Donald Shell em 1959, publicado pela Universidade de Cincinnati, 
+		/// Shell sort é o mais eficiente algoritmo de classificação dentre os de complexidade quadrática. 
+		/// É um refinamento do método de inserção direta. O algoritmo difere do método de inserção direta 
+		/// pelo fato de no lugar de considerar o array a ser ordenado como um único segmento, 
+		/// ele considera vários segmentos sendo aplicado o método de inserção direta em cada um deles. 
+		/// Basicamente o algoritmo passa várias vezes pela lista dividindo o grupo maior em menores. 
+		/// Nos grupos menores é aplicado o método da ordenação por inserção. 
+		/// </summary>
+		/// <returns>Números ordenados</returns>
+		/// <param name="numeros">Numeros a serem ordenados</param>
+		/// <param name="qtdeNumeros">Qtde de numeros presentes na listagem</param>
+		int[] ShellSort (int[] numeros, int qtdeNumeros);
 	}
 }
 

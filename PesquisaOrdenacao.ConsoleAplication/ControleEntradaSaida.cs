@@ -4,6 +4,8 @@ using System.Collections.Generic;
 namespace PesquisaOrdenacao.ConsoleAplication
 {
 	using Modelo;
+	using Interface;
+	using Biblioteca;
 
 	public class ControleEntradaSaida: IControleEntradaSaida
 	{
@@ -59,9 +61,22 @@ namespace PesquisaOrdenacao.ConsoleAplication
 			return resultado;
 		}
 
+		public ResultadoPesquisa PesquisaBinaria (int[] numeros, int filtro)
+		{
+			ResultadoPesquisa resultado = new ResultadoPesquisa(0, 0);
+
+			//Instanciando Métodos da Biblioteca Usada em Outras Camadas
+			IPesquisa metodosPesquisa = new Pesquisa();	
+
+			resultado.Posicao = metodosPesquisa.PesquisaBinaria (numeros, filtro);
+			resultado.Numero = filtro;
+
+			return resultado;
+		}
+
 		public void ExibirNumero (int numero, int posicao)
 		{
-			if (numero > 0) {
+			if (numero > 0 && posicao >= 0) {
 					Console.WriteLine (string.Format("O número encontrado é: {0} na posição {1}", numero, posicao));
 			} else {
 				Console.WriteLine ("Número não encontrado.");

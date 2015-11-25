@@ -21,6 +21,7 @@ namespace PesquisaOrdenacao.ConsoleAplication
 		void VisualizarNumeros(List<int> listNumeros);
 		void VisualizarNumeros(int[] numeros);
 		ResultadoPesquisa PesquisarNumero (int[] numeros, int filtro);
+		ResultadoPesquisa PesquisaBinaria (int[] numeros, int filtro);
 		void ExibirNumero (int numero, int posicao);
 		int ColetarNumeroValido();
 	}
